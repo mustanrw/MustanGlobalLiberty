@@ -1,0 +1,13 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: MustanGlobalLiberty
+  host: MustanGlobalLiberty
+  disk_quota: 1024M
+  services:
+  - Globalization Pipeline-ic
+  - IBM Watson Machine Learning-e0
+  - Insights for Twitter-jm
+  - AlchemyAPI-r8
